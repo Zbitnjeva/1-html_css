@@ -76,7 +76,7 @@ letters.
    - font-weight: 500;
    - font-size: 44px;
    - text-align: center.
-6. Create class header and set styles:
+6. Header h3 create class and set styles:
    - font-size: 36px;
    - text-align: center.
 7. Headers h4 create class and set styles
