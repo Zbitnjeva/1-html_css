@@ -110,4 +110,4 @@ letters.
 4. Всем блокам задать логичное название класса. Запрещается использовать перечисление
 (block1, block2, block3...block378).
 5. * Для страницы «Контакты» также представлено изображение страницы, но без разбиения на
-блоки. [Здесь](https://www.figma.com/proto/AOKabCJEdEqr9ZZEaJ0IMS/html%2Fcss-(Copy)?node-id=1%3A811&scaling=min-zoom) требуется самостоятельно разделить сайт на блоки.
+блоки. [Здесь](https://www.figma.com/proto/4DoJjp5UUQzCQkJcoGXblW/html%2Fcss-(Copy)?node-id=1%3A811&scaling=min-zoom) требуется самостоятельно разделить сайт на блоки.
