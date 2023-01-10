@@ -2,6 +2,7 @@
   - [Lesson 1. Basic concepts in web development](#lesson-1-basic-concepts-in-web-development)
   - [Lesson 2. HTML5 Basics](#lesson-2-html5-basics)
   - [Lesson 3. Basic CSS](#lesson-3-basic-css)
+  - [Урок 4. Псевдоклассы, табличная вёрстка](#урок-4-псевдоклассы-табличная-вёрстка)
 # GeekBrains. HTML/CSS. Interactive course.
 ***
 ## Lesson 1. Basic concepts in web development
@@ -98,3 +99,15 @@ letters.
    - text-align: center;
    - color: #FFFFFF;
    - text-transform: uppercase.
+## Урок 4. Псевдоклассы, табличная вёрстка
+Домашнее задание посвящается разбиению сайта на блоки.
+1. Предоставляется изображение сайта ([просто картинка](https://www.figma.com/proto/4DoJjp5UUQzCQkJcoGXblW/html-css-Copy?node-id=1%3A966&scaling=min-zoom)). На нём разными цветами выделены
+блоки, на которые требуется разбить страницу. Верстать по макету не нужно, просто добавить
+элементы div c class, которые выделены на изображении.
+2. Всё содержимое 3 дз вам необходимо добавить в блоки, отмеченные на изображении сайта.
+3. Никаких новых элементов из макета добавлять не нужно. Вы начнёте работать с ним на 6
+уроке.
+4. Всем блокам задать логичное название класса. Запрещается использовать перечисление
+(block1, block2, block3...block378).
+5. * Для страницы «Контакты» также представлено изображение страницы, но без разбиения на
+блоки. [Здесь](https://www.figma.com/proto/AOKabCJEdEqr9ZZEaJ0IMS/html%2Fcss-(Copy)?node-id=1%3A811&scaling=min-zoom) требуется самостоятельно разделить сайт на блоки.
