@@ -3,6 +3,7 @@
   - [Lesson 2. HTML5 Basics](#lesson-2-html5-basics)
   - [Lesson 3. Basic CSS](#lesson-3-basic-css)
   - [Lesson 4. Pseudo-classes, Table Layout](#lesson-4-pseudo-classes-table-layout)
+  - [Урок 5. Основы позиционирования, работа с Flexbox](#урок-5-основы-позиционирования-работа-с-flexbox)
 # GeekBrains. HTML/CSS. Interactive course.
 ***
 ## Lesson 1. Basic concepts in web development
@@ -107,3 +108,37 @@ the blocks to which you want to divide the page. You do not need to make a layou
 4. All blocks are given a logical class name. It is forbidden to use an enumeration (block1, block2, block3...block378).
 5. (*) For the «Contacts» page there is also a page image, but without partitioning into blocks. 
    [Here](https://www.figma.com/proto/4DoJjp5UQzCQkJcoGXblW/html%2Fcss-(Copy)?node-id=1%3A811&scaling=-zoom) is required to independently divide the site into blocks.
+## Урок 5. Основы позиционирования, работа с Flexbox
+1. В файле стилей первой строчкой добавить обнуление стилей * {margin: 0; padding: 0;}.
+2. В файле стилей создать блок container, отвечающий за центрирование нашей страницы:
+.container { width: 1140px; margin: 0 auto; }
+3. В шапке сайта необходимо расположить элементы горизонтально, текст «Главная» должен
+располагаться слева, «Контакты» — справа.
+4. Заголовку h1 указать ширину 510px.
+5. Тексту под заголовком h1 указать ширину 425px.
+6. В HTML-файле class="what-we-do" добавить класс container, чтобы получилось
+class="what-we-do container" для центрирования содержимого блока what-we-do:
+   -  Блоку карточки (заголовок h4: Make your business, смотри макет ниже и p) указать
+   значение ширины 359px.
+   -  Создать ещё 2 карточки товара, как представлено в [изображении макета](https://www.figma.com/proto/4DoJjp5UUQzCQkJcoGXblW/html%2Fcss-(Copy)?node-id=1%3A966&scaling=min-zoom). Итого
+   получится 3 карточки.
+   - Расположить их горизонтально и выставить равные отступы между ними.
+7. В подвале сайта:
+   - Добавить центрирование всего контента, в подвале сайта внутри блока footer
+   создать блок container для центрирования содержимого. Должна получиться
+   структура:
+      ```
+      <div class="footer">
+      <div class="container">Содержимое футера</div>
+      </div>
+      ```
+   -  Блоку контента (h3 "Intersted to woek") в верхней части футера указать ширину 340px.
+   - Тексту (p) в подвале сайта указать ширину 495px.
+   -  Список в нижней части подвала (номер телефона и email) расположить горизонтально
+и выставить равные отступы между ними.
+8. Страница «Контакты»:
+- Добавить центрирование всей контентной части страницы с помощью блока
+container.
+- В соответствии с изображением страницы «Контакты» разместить слева блок с
+контактами, справа — блок формы заполнения данных.
+- Карту сайта сделать на всю ширину container.
