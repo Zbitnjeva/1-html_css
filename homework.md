@@ -2,6 +2,7 @@
   - [Lesson 1. Basic concepts in web development](#lesson-1-basic-concepts-in-web-development)
   - [Lesson 2. HTML5 Basics](#lesson-2-html5-basics)
   - [Lesson 3. Basic CSS](#lesson-3-basic-css)
+  - [Lesson 4. Pseudo-classes, Table Layout](#lesson-4-pseudo-classes-table-layout)
 # GeekBrains. HTML/CSS. Interactive course.
 ***
 ## Lesson 1. Basic concepts in web development
@@ -98,3 +99,11 @@ letters.
    - text-align: center;
    - color: #FFFFFF;
    - text-transform: uppercase.
+## Lesson 4. Pseudo-classes, Table Layout
+1. Provides a site image ([simple picture](https://ww.figma.com/proto/4DoJjp5UQzCQJcoGXblW/html-css-Copy?nodeid-=1%3A966&ing=zoomin-m)). It’s got different colors
+the blocks to which you want to divide the page. You do not need to make a layout, just add the elements div c class, which are highlighted in the image.
+2. You need to add all the contents of 3 homework to the blocks marked in the site image.
+3. There is no need to add any new elements from the layout. You will start working with it in lesson 6.
+4. All blocks are given a logical class name. It is forbidden to use an enumeration (block1, block2, block3...block378).
+5. (*) For the «Contacts» page there is also a page image, but without partitioning into blocks. 
+   [Here](https://www.figma.com/proto/4DoJjp5UQzCQkJcoGXblW/html%2Fcss-(Copy)?node-id=1%3A811&scaling=-zoom) is required to independently divide the site into blocks.
